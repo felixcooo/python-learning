@@ -4,8 +4,8 @@ height = 1.82
 using_raspberry_pi = True
 
 print("Name: ", name)
-print("Age: ", age)
-print("Height: ", height)
+print("Age: " + str(age) + " years old.")
+print("Height: " + str(height) + " meters.")
 print("Using Rasberry Pi:", using_raspberry_pi)
 print()
 print("Type of name: ", type(name))
